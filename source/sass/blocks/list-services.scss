@@ -1,0 +1,37 @@
+.list-services {
+	@include wrapper;
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: 100px;
+		& :not(:last-child) {
+			margin-right: 20px;
+		}
+}
+
+.list-services__link {
+	width: 125px;
+	text-decoration: none;
+	background-color: #096989;
+	position: relative;
+		&:after {
+			content: "";
+
+			position: absolute;
+			background-image: url("../../img/icon/icon_up.svg");
+			background-repeat: no-repeat;
+			background-position: 0 0;
+
+			bottom: 0;
+			left: -100px;
+			width: 50px;
+			height: 50px;
+		}
+}
+
+.list-services__title {
+	margin: 0;
+	padding: 20px 0 80px 0;
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+}

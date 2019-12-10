@@ -1,0 +1,72 @@
+.header-main {
+	background-color: #f4f7f9;
+}
+
+.header-main__top {
+	@include wrapper;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-main__info,
+.header-main__phone,
+.header-main__adres-wrapper {
+	width: 33.33%;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.header-main__info-mail,
+.header-main__phone-number,
+.header-main__adres {
+	color: #000000;
+	text-decoration: none;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header-main__info-mail {
+	& svg {
+		margin-right: 10px;
+	}
+}
+
+.header-main__phone-number {
+	& svg {
+		margin-right: 10px;
+	}
+}
+
+// Блок навигации
+
+.header-main__nav-wrapper {
+	@include wrapper;
+	background-color: #32425c;
+}
+
+.header-main__nav {
+	@include list;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-main__nav-link {
+	padding: 20px 0;
+}
+
+.header-main__item {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 18px 20px;
+}
+
+.header-main__nav-link a[href] {
+	&:hover {
+		background-color: #293449;
+	}
+	&:active {
+		background-color: #1d2739;
+	}
+}

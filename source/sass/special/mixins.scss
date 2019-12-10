@@ -1,0 +1,33 @@
+@mixin color-red {
+  font-size: 14px;
+  color: #d22856;
+  text-transform: uppercase;
+}
+
+@mixin text-photo-userlist {
+  color: #283645;
+  font-size: 12px;
+  line-height: 24px;
+}
+
+@mixin list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+@mixin wrap {
+  padding: 0 20px;
+
+  @media (min-width: $desktop) {
+    max-width: 960px;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+}
+
+@mixin wrapper {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
