@@ -1,5 +1,6 @@
 .header-main {
-	background-color: #f4f7f9;
+	background-color: #d1d1d1;
+	padding-bottom: 20px;
 }
 
 .header-main__top {
@@ -59,7 +60,9 @@
 .header-main__item {
 	color: #ffffff;
 	text-decoration: none;
-	padding: 18px 20px;
+	padding: 16px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
 .header-main__nav-link a[href] {

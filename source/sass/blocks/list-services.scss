@@ -4,19 +4,20 @@
 
 .list-services__first-conteiner {
 	display: flex;
-	margin-top: 20px;
+	margin-top: 40px;
 	
 		.list-services__link-first {
 			width: 25%;
 			padding: 10px 0 100px 0;
-			background-color: teal;
+			background-color: rgba(69, 82, 99, 0.9);
 			text-align: center;
 			text-decoration: none;
 				&:not(:last-child) {
 					margin-right: 20px;
 				}
 				&:hover {
-					background-color: rgba($color: teal, $alpha: 0.8);
+					background-color: rgba(69, 82, 99, 0.7);
+					box-shadow: 30px 30px 20px rgba(0,0,0,0.5);
 				}
 		}
 
@@ -24,16 +25,16 @@
 			margin: 0;
 			text-transform: uppercase;
 			font-size: 18px;
-			color: black;
+			color: white;
 		}
 }
 
 .list-services__second-conteiner {
 	display: flex;
-	margin-top: 20px;
+	margin-top: 40px;
 
 		.list-services__link-second {
-			background-color: blueviolet;
+			background-color: rgba(68, 68, 68, 0.9);
 			width: 33%;
 			padding: 10px 0 100px 0;
 			text-align: center;
@@ -42,7 +43,8 @@
 					margin-right: 20px;
 				}
 				&:hover {
-					background-color: rgba($color:  blueviolet, $alpha: 0.8)
+					background-color: rgba(68, 68, 68, 0.7);
+					box-shadow: 30px 30px 30px rgba(0,0,0,0.6);
 				}
 		}
 
@@ -50,6 +52,6 @@
 			margin: 0;
 			text-transform: uppercase;
 			font-size: 18px;
-			color: black;
+			color: white;
 		}		
 }

@@ -1,0 +1,15 @@
+.header__wrapper {
+  background-color: #32425c;
+}
+
+.header__block-wrapper {
+  @include wrapper;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__main-title {
+  color: white;
+  font-size: 32px;
+}
