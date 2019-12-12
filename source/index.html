@@ -11,20 +11,12 @@
 <body>
   <header class="header">
     <section class="header__wrapper">
-      <ul class="header__top-wrapper">
-        <li class="header__logo">
-          <img src="#" alt="logo">
-        </li>
-        <li class="header__top-link">
-          <a href="#">Лазерная резка</a>
-        </li>
-        <li class="header__top-link">
-          <a href="#">Лазерная гравировка</a>
-        </li>
-        <li class="header__top-link">
-          <a href="#">Металлообработка</a>
-        </li>
-      </ul>
+      <a class="header__logo" href="#">
+        <img src="" alt="logo">
+      </a>
+      <h1 class="header__main-title">
+        Лаборатория лазерных технологий
+      </h1>
     </section>
     <section class="header__main header-main">
       <div class="header-main__top">
@@ -159,34 +151,61 @@
       </div>
     </section>
     <section class="list-services">
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">лазерная резка</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">лазерная гравировка</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">лазерная сварка</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">гибка металла</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">вальцовка</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">порошковая покраска</h4>
-      </a>
-      <a class="list-services__link" href="#">
-        <h4 class="list-services__title">механическая обработка металла</h4>
-      </a>
+      <div class="list-services__first-conteiner">
+        <a class="list-services__link-first" href="#">
+          <h4 class="list-services__title-first">лазерная резка</h4>
+        </a>
+        <a class="list-services__link-first" href="#">
+          <h4 class="list-services__title-first">лазерная гравировка</h4>
+        </a>
+        <a class="list-services__link-first" href="#">
+          <h4 class="list-services__title-first">лазерная сварка</h4>
+        </a>
+        <a class="list-services__link-first" href="#">
+          <h4 class="list-services__title-first">гибка металла</h4>
+        </a>
+      </div>
+      <div class="list-services__second-conteiner">
+        <a class="list-services__link-second" href="#">
+          <h4 class="list-services__title-second">вальцовка</h4>
+        </a>
+        <a class="list-services__link-second" href="#">
+          <h4 class="list-services__title-second">порошковая покраска</h4>
+        </a>
+        <a class="list-services__link-second" href="#">
+          <h4 class="list-services__title-second">механическая обработка металла</h4>
+        </a>
+      </div>
+    </section>
+    <section class="mini-map">
+      <div class="mini-map__wrapper">
+        <iframe class="yandex" src="https://yandex.ru/map-widget/v1/-/CGh0zY08" width="920" height="400" frameborder="1" allowfullscreen="true"></iframe>
+      </div>
     </section>
   </main>
+  <footer class="footer">
+    <section class="footer__wrapper">
+      <div class="footer__block footer__social">
+        <a class="footer__social-vk" href="https://vk.com/lablt">vk.com/lablt</a>
+        <a class="footer__social-insta" href="https://www.instagram.com/lablt/">instagram.com/lablt</a>
+        <a class="footer__social-app" href="tel:+79253884440">+7 (925)-44-40</a>
+      </div>
+      <div class="footer__block footer__copirait-wrapper">
+        <span class="footer__copirait">2019 - 2020 &copy; LabLt</span>
+      </div>
+      <div class="footer__block footer__link">
+        <a class="footer__link-mail" href="mailto:info@lablt.ru">info@lablt.ru</a>
+        <a class="footer__link-tel" href="tel:+79253884440">+7 (925)-44-40</a>
+        <a class="footer__link-map" href="https://yandex.ru/maps/216/zelenograd/?from=api-maps&ll=37.165163%2C55.964201&mode=search&origin=jsapi21&sll=37.165163%2C55.964201&text=%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F%2C%20%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%2C%20%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%2C%20687-%D0%B9%20%D0%BF%D1%80%D0%BE%D0%B5%D0%B7%D0%B4%2C%2015%D1%811&z=17">Проезд 687, дом 15, строение 1</a>
+      </div>
+  </section>
+  </footer>
 
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
 
+  <!-- Настройка слайдера -->
   <script type="text/javascript">
     $(document).ready(function(){
       $('.slider__my-slider').slick({

@@ -1,0 +1,16 @@
+.mini-map {
+  background-color: #f9f5f0;
+  margin-top: 10px;
+}
+
+.mini-map__wrapper {
+  @include wrapper;
+  margin-top: 40px;
+
+    .yandex {
+      border: 3px dashed #32425c;
+      border-radius: 20px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+}
