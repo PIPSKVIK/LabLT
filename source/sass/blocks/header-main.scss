@@ -40,6 +40,30 @@
 	}
 }
 
+.header-main__info-mail,
+.header-main__phone-number,
+.header-main__adres {
+  position: relative;
+  transition: all 1.2s;
+    &:before {
+      content: "";
+        width: 0;
+        height: 0.3em;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        background: blueviolet;
+        transition: all 0.7s;
+    }
+    &:hover {
+      &:before {
+				width: 100%;
+        left: 0;
+        background: red;
+      }
+    }
+}
+
 // Блок навигации
 
 .header-main__nav-wrapper {

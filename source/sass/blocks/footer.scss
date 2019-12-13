@@ -10,7 +10,7 @@
 }
 
 .footer__block {
-  width: 33.3333%;
+  width: 32.3333%;
   display: flex;
   flex-direction: column;
     & a {
@@ -44,7 +44,8 @@
 }
 
 .footer__link {
-  padding-left: 20px;
+  padding-left: 10px;
+  width: 325px;
     & a {
       display: flex;
       align-items: center;
@@ -52,5 +53,36 @@
 
     & svg {
       margin-right: 10px;
+    }
+}
+
+// hover эффект на ссылках
+.footer__link-mail,
+.footer__link-tel,
+.footer__link-map,
+.footer__social-vk,
+.footer__social-insta,
+.footer__social-youtube {
+  position: relative;
+  transition: all 1.2s;
+    &:before {
+      content: "";
+        width: 0;
+        height: 0.4em;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background: blueviolet;
+        transition: all 0.7s;
+    }
+    &:hover {
+      color: red;
+      font-size: 17px;
+      &:before {
+        width: 90%;
+        left: 0;
+        background: red;
+        height: 0.2em;
+      }
     }
 }

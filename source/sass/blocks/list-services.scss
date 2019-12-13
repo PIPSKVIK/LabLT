@@ -17,7 +17,21 @@
 				}
 				&:hover {
 					background-color: rgba(69, 82, 99, 0.7);
-					box-shadow: 30px 30px 20px rgba(0,0,0,0.5);
+					box-shadow: -10px -10px 8px rgba(0,0,0,0.5);
+
+					// Новер Эффукт для блоков
+
+					-webkit-transition: -webkit-transform .60s ease;
+      		-moz-transition: -moz-transform .60s ease;
+        	-o-transition: -o-transform .60s ease;
+       		-ms-transition: -ms-transform .60s ease;
+					transition: transform .60s ease;
+
+					-webkit-transform: translate(10px, 10px);
+      		-moz-transform: translate(10px, 10px);
+        	-o-transform: translate(10px, 10px);
+       		-ms-transform: translate(10px, 10px);
+           transform: translate(10px, 10px);
 				}
 		}
 
@@ -44,7 +58,19 @@
 				}
 				&:hover {
 					background-color: rgba(68, 68, 68, 0.7);
-					box-shadow: 30px 30px 30px rgba(0,0,0,0.6);
+					box-shadow: -10px -10px 8px rgba(0,0,0,0.5);
+
+					-webkit-transform: translate(10px, 10px);
+      		-moz-transform: translate(10px, 10px);
+        	-o-transform: translate(10px, 10px);
+       		-ms-transform: translate(10px, 10px);
+           transform: translate(10px, 10px);
+						
+					-webkit-transition: -webkit-transform .60s ease;
+      		-moz-transition: -moz-transform .60s ease;
+        	-o-transition: -o-transform .60s ease;
+       		-ms-transition: -ms-transform .60s ease;
+					transition: transform .60s ease;
 				}
 		}
 
