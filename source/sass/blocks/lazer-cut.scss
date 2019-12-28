@@ -1,0 +1,44 @@
+.lazer-cut {
+  @include wrapper;
+}
+
+.lazer-cut__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.lazer-cut__text {
+  text-align: center;
+  font-size: 16px;
+  line-height: normal;
+    &--bending {
+      padding-bottom: 108px;
+    }
+
+    &--rolling {
+      padding-bottom: 47px;
+    }
+}
+
+.lazer-cut__foto-wrapper {
+  padding-bottom: 27px;
+}
+
+.rolling-img__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.coating-list {
+  & li {
+    padding-bottom: 18px;
+  }
+}
+
+.metal-machining__list {
+  padding-bottom: 211px;
+  & li {
+    padding-bottom: 20px;
+  }
+}

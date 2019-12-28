@@ -1,0 +1,27 @@
+.order-main {
+  @include wrapper;
+  margin-bottom: 117px;
+}
+
+.order-main__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.order-main__text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.order-main__phone {
+  color: #818199;
+}
+
+.order-main__mail {
+  color: #818199;
+}
+
+.order-main__list li {
+  padding-bottom: 12px;
+}

@@ -1,0 +1,40 @@
+.information-main {
+  @include wrapper;
+  margin-bottom: 199px;
+}
+
+.information-main__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.information-main__info-wrapper {
+  padding-left: 160px;
+}
+
+.information-main__title {
+  margin-bottom: 80px;
+}
+
+.information-main__phone,
+.information-main__email,
+.information-main__adres {
+  padding-bottom: 30px;
+  margin: 0;
+}
+
+.information-main__phone-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.information-main__email-wrapper {
+  display: flex;
+  align-items: baseline;
+}
+
+.information-main__adres-wrapper {
+  display: flex;
+  align-items: baseline;
+}

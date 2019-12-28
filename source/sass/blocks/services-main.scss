@@ -1,0 +1,53 @@
+.services-main {
+  @include wrapper;
+  margin-bottom: 17px;
+}
+
+.services-main__title {
+  text-align: center;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.services-main__text {
+  font-size: 18px;
+  line-height: 20px;
+  padding-bottom: 45px;
+}
+
+.services-main__list {
+  list-style: none;
+}
+
+.services-main__list-item {
+  position: relative;
+  padding-bottom: 25px;
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+
+  &::before {
+    content: ("");
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background-color: #e53824;
+    bottom: 33px;
+    left: -24px;
+  }
+}
+.services-main__link {
+  &:hover {
+    color: red;
+  }
+
+  &:active {
+    color: #2466cf;
+  }
+}
+
+.services-main__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
