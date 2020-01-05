@@ -10,7 +10,10 @@
 }
 
 .information-main__info-wrapper {
-  padding-left: 160px;
+  // padding-left: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .information-main__title {
@@ -20,6 +23,7 @@
 .information-main__phone,
 .information-main__email,
 .information-main__adres {
+  padding-left: 20px;
   padding-bottom: 30px;
   margin: 0;
 }
